@@ -7,6 +7,12 @@ export const NavBar = () => {
       <Navbar>
         <nav>
           <ul>
+            {/* <li>
+              {" "}
+              <Link to="/notFound" className="index-link">
+                Index
+              </Link>{" "}
+            </li> */}
             <li>
               {" "}
               <Link to="/home" className="home-link">
