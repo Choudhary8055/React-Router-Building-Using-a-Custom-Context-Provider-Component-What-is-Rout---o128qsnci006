@@ -14,16 +14,14 @@ export const NavBar = () => {
               </Link>{" "}
             </li> */}
             <li>
-              {" "}
-              <Link to="/home" className="home-link">
+              <Link to="/home" className="home-link btn btn-outline-success">
                 Home
-              </Link>{" "}
+              </Link>
             </li>
             <li>
-              {" "}
               <Link to="/" className="index-link">
                 Index
-              </Link>{" "}
+              </Link>
             </li>
           </ul>
         </nav>
